@@ -11,6 +11,7 @@ When run, the R script provided in this repo (called "run_analysis.R") does the 
 3. it changes the activity labels (numbers given in column 2 of the dataset) into descriptive activity names. 
 4. it labels the data set with appropriate descriptive variable names
 5. it creates a second, independent tidy data set (called "tidyDf2") with the average of each variable for each activity per subject. 
+
 ====================================================================================================================================================================================
 ====================================================================================================================================================================================
 
@@ -50,6 +51,7 @@ contains the following files:
 ================================================================================
 # To read the R script, the following packages need to be installed in R:
 ================================================================================
+
 - base
 - utils
 - plyr
@@ -60,7 +62,6 @@ contains the following files:
 ======================================================================================================================================================
 # Study Design / How the run_analysis.R SCRIPT works
 ======================================================================================================================================================
-
 
 STEP A: I TOOK THE RAW DATA ZIPFILE FROM "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", 
 PUT IT IN A FOLDER CALLED "cleaningAssignment" AND UNZIPPING THE FILE.
